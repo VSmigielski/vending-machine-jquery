@@ -1,0 +1,45 @@
+h2 {
+    text-align: center;
+}
+
+#addDollarButton, #addQuarterButton, #addDimeButton, #addNickelButton {
+    font-size: 12px;
+    margin: 0 auto;
+    background-color: #97A2FF;
+    border: #97A2FF;
+    color: black;
+    width: 115px;
+}
+
+#itemDiv {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#itemToVend {
+    width: 40%;
+    text-align: center;
+}
+
+#moneyInput {
+    width: 75%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#purchaseButton {
+    background-color: #FFBEBC;
+    border: #FFBEBC;
+    color: black;
+}
+
+#returnChangeButton {
+    background-color: #BFFCC6;
+    border: #BFFCC6;
+    color: black;
+}
+
+#purchaseButton, #returnChangeButton {
+    margin: 0 auto;
+}
