@@ -81,7 +81,7 @@ function loadItems() {
 		// Type of http method
         type: 'GET',
 		// URL to go to
-        url: 'http://tsg-vending.herokuapp.com/items',
+        url: 'https://tsg-vending.herokuapp.com/items',
 		// If the call succeeds, retrieve the array and the indexes
         success: function(itemArray) {
 			// For each of the items
@@ -159,7 +159,7 @@ function makePurchase() {
 			// Post http method
 			type: 'POST',
 			// URL for the api to use POST, uses the variables from above
-			url: '	http://tsg-vending.herokuapp.com/money/' + amount + '/item/' + id,
+			url: '	https://tsg-vending.herokuapp.com/money/' + amount + '/item/' + id,
 			// This sends/accepts the information in JSON format
 			headers: {
 				'Accept': 'application/json',
